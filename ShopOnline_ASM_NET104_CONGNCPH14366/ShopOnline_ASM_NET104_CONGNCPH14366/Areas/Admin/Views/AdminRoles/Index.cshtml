@@ -32,9 +32,9 @@
                 @Html.DisplayFor(modelItem => item.Descriptions)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.RoleId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.RoleId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.RoleId">Delete</a>
+                <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Edit" asp-route-id="@item.RoleId">Edit</a> |
+                <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Details" asp-route-id="@item.RoleId">Details</a> |
+                <a class="btn btn-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Delete" asp-route-id="@item.RoleId">Delete</a>
             </td>
         </tr>
 }

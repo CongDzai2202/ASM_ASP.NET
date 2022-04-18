@@ -457,3 +457,8 @@ C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH143
 C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Views\Product\Detail.cshtml.g.cs
+C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Create.cshtml.g.cs
+C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Delete.cshtml.g.cs
+C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Details.cshtml.g.cs
+C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Edit.cshtml.g.cs
+C:\Users\Microsoft Windows\Desktop\ASM_ASP.NET\ShopOnline_ASM_NET104_CONGNCPH14366\ShopOnline_ASM_NET104_CONGNCPH14366\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Index.cshtml.g.cs
