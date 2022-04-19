@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ShopOnline_ASM_NET104_CONGNCPH14366.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-4 mt-5 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="~/images/products/@Html.DisplayFor(modelItem => item.Thumb)" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> @Html.DisplayFor(modelItem => item.ProductName)</h5>
+                        <p class="card-text">Giá Bán : @Html.DisplayFor(modelItem => item.Price)</p>
+                        <a asp-controller="TestProducts" asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-primary">Mua Hàng</a>
+                    </div>
+                </div>
+            </div>
+
+
+        }
+    </div>
+</div>
+
+

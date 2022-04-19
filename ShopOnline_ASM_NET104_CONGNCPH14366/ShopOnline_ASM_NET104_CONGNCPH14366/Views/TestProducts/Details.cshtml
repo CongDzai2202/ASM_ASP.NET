@@ -1,0 +1,20 @@
+﻿@model ShopOnline_ASM_NET104_CONGNCPH14366.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="col-4 mt-5 mb-5">
+    <div class="card" style="width: 18rem;">
+        <img src="~/images/products/@Html.DisplayFor(model => model.Thumb)" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"> @Html.DisplayFor(model => model.ProductName)</h5>
+            <p class="card-text">Giá Bán : @Html.DisplayFor(model => model.Price)</p>
+            <label class="font-weight-semibold" for="productName">Số Lượng</label>
+            <input type="number" class="form-control" id="SL" name="SL" for="SL" />
+        </div>
+    </div>
+</div>
+
