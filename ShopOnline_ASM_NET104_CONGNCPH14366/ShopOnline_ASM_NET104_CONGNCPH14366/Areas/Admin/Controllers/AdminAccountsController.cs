@@ -22,6 +22,8 @@ namespace ShopOnline_ASM_NET104_CONGNCPH14366.Areas.Admin.Controllers
         // GET: Admin/AdminAccounts
         public async Task<IActionResult> Index()
         {
+            ViewData["QuyenTruyCap"] = new SelectList(_context.Roles,"RoleID","Descriptions");
+
             var shopOnlineContext = _context.Accounts.Include(a => a.Role);
             return View(await shopOnlineContext.ToListAsync());
         }
